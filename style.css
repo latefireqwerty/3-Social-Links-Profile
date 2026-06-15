@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.5rem;
+    width: 80%;
+    max-width: 400px;
+}
+
+img{
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 1rem; 
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size:  1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+
+.bio{
+    color:hsl(0, 0%, 80%);
+    font-size: 0.875rem;
+}
+
+
+div{
+    margin-top: 0.5rem;
+    width: 80%;
+}
+
+div:hover{
+    background-color: hsl(0, 0%, 30%);
+    cursor: pointer;
+}
+
+.GitHub{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.GitHub a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.Twitter{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.Twitter a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.Frontend{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.Frontend a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.LinkedIn{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.LinkedIn a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.Instagram{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.Instagram a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+footer{
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+}
